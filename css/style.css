@@ -1,0 +1,8 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 25%;
+    padding: 1%;
+}
