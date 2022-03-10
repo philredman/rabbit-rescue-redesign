@@ -3,6 +3,98 @@
     vertical-align: top;
 }
 .logo {
-    width: 25%;
+    width: 35%;
     padding: 1%;
+}
+.navTab {
+    background-color: #33103B;
+    color: #f4f4f4;
+    border-radius: 12px 12px 0px 0px;
+    width: 90%;
+    height: 62px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rosario, Times, serif;
+    font-size: 28px;
+}
+.navLink {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.grid-container-nav {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px;
+}
+.gridLink {
+    color: #010101;
+}
+.ourMission {
+    font-family: Rosario, Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+.heroImg {
+    width: 100vw;
+}
+#aboutUs {
+    background-color: #FFCA31;
+    color: #33103B;
+    border: none;
+    text-align: center;
+    font-family: Rosario, Times, serif;
+    font-size: 28px;
+    padding: 5px;
+    width: 388px;
+    border-radius: 24px;
+    transform: translate(67vw, -80px);
+    /* I acknowledge that this is a dirty hackjob for now but it's gonna get the job done for the moment */
+}
+.CTAcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 525px;
+    width: 95vw;
+    grid-gap: 1vw;
+}
+.cardImg {
+    width: 95%;
+    height: 200px;
+    padding: 2.5%;
+}
+.card {
+    background-color: #33103B;
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 13px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* (maybe 50% 10% 20% 20% ?) shoudl go image title text button - need to respace this*/
+}
+.cardText {
+    padding: 2.5%;
+}
+button {
+    background-color: #FFCA31;
+    color: #33103B;
+    border: none;
+    text-align: center;
+    font-family: Rosario, Times, serif;
+    font-size: 28px;
+    border-radius: 24px;
+}
+#takeQuiz, #bunnyBoutique, #findOutMore {
+    width: 60%;
+}
+.rightButton {
+    display: flex;
+    flex-direction: row-reverse;
 }

@@ -5,38 +5,62 @@
             HRRN - Rabbit Resource. House Rabbit Resource Network redesign proposal.
         </title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header class="navigation">
-            <div class="inline-block logo">
-                <img src="images/purp hrrn logo.png">
+            <div class="inline-block">
+                <img src="images/purp hrrn logo.png" class="logo">
             </div>
-            <nav class="inline-block">
+            <nav class="inline-block grid-container-nav">
                 <!-- Not sure I'm doing this bit right -->
-                <div>Learn</div>
-                <div>Adopt</div>
-                <div>Help Out</div>
-            </nav>
-            <nav class="inline-block">
-                <a href="/found/">Found a Bunny?</a>
-                <a href="/boutique /">Bunny Boutique</a>
-                <a href="/about/">About Us</a>
-                <a href="/archive/">Archive</a>
-                <a href="/contact/">Contact Us</a>
+                <div class="navTab gridTab">Learn</div>
+                <div class="navTab gridTab">Adopt</div>
+                <div class="navTab gridTab">Help Out</div>
+                <a href="/found/" class="navLink gridLink">Found a Bunny?</a>
+                <a href="/boutique /" class="navLink gridLink">Bunny Boutique</a>
+                <a href="/about/" class="navLink gridLink">About Us</a>
+                <a href="/archive/" class="navLink gridLink">Archive</a>
+                <a href="/contact/" class="navLink gridLink">Contact Us</a>
             </nav>
             
         </header>
-        <section class="heroImg">
-            <div class="content">
-                <img src="images/bunnyheader.png">
-                <h1>Giving a second chance to the rabbits of Austin, Texas.</h1>
-                <button>About Us</button>
+        <section class="ourMission">
+            Our Mission
+        </section>
+        <section class="hero">
+            <div class="content heroDiv">
+                <img src="images/bunny header with text.png" class="heroImg" alt="Giving a second chance to the rabbits of Austin, Texas.">
+                <button id="aboutUs">About Us</button>
             </div>
         </section>
         <section class="CTAcards">
-            <div class="content card">Ready to Adopt?</div>
-            <div class="content card">Need Rabbit Supplies?</div>
-            <div class="content card">Become a Volunteer</div>
+            <div class="content card">
+                <img src="images/ready to adopt bun.png" class="cardImg">
+                <h3 class="cardText">Ready to Adopt?</h3>
+                <p class="cardText">Rabbits can be pretty tricky. Take this quiz to see if you’re ready to hop into it and adopt one of our bunnies.</p>
+                <div class="rightButton">
+                   <button id="takeQuiz">Take the Quiz!</button>
+                </div>
+            </div>
+            <div class="content card">
+                <img src="images/bunny boutique resized.png" class="cardImg">
+                <h3 class="cardText">Need Rabbit Supplies?</h3>
+                <p class="cardText">Our bunny boutique offers rabbit hutches, papaya pellets and more. Curbside pickup now available.</p>
+                <div class="rightButton">
+                    <button id="bunnyBoutique">Bunny Boutique</button>
+                </div>
+            </div>
+            <div class="content card">
+                <img src="images/become a volunteer bun.png" class="cardImg">
+                <h3 class="cardText">Become a Volunteer</h3>
+                <p class="cardText">Learn all about Bunny basics during a volunteer shift. Get hands on experience and learn about rabbit diet, feeding, grooming, illnesses, habitat and general care.</p>
+                <div class="rightButton">
+                    <button id="findOutMore">Find out more</button>
+                </div>
+            </div>
         </section>
         <section class="content news">
             <H2>News</H2>
