@@ -6,8 +6,16 @@ body {
     background-color: #f4f4f4;
 }
 .logoPurp {
-    width: 35%;
+    width: 10%;
     padding: 1%;
+    /* I don't know why the purple logo is getting huge if I don't keep its width to 10%; it's something about the flex display in the logoTitle class, but I don't know why. its getting bigger than the source image. WAIT IS IT THE PARAGRAPH? removed this: <p class="titleHRRN">House Rabbit Resource Network</p>. Nope it wasn't that. */
+}
+.logoTitle {
+    color: #33103B;
+    font-family: Rosario, Times, serif;
+    font-size: 32px;
+    display: flex;
+    align-items: center; 
 }
 .navTab {
     background-color: #33103B;
